@@ -1,27 +1,34 @@
-/* @font-face {
+@font-face {
     font-family: 'CircularStd';
-    src: url('../fonts/CircularStd-Black.ttf') format('truetype');
+    src: url('./fonts/CircularStd-Bold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('./fonts/CircularStd-Black.ttf') format('truetype');
     font-weight: 700;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'CircularStd';
-    src: url('../fonts/CircularStd-Book.ttf') format('truetype');
+    src: url('./fonts/CircularStd-Book.ttf') format('truetype');
     font-weight: 400;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'CircularStd';
-    src: url('../fonts/CircularStd-Medium.ttf') format('truetype');
+    src: url('./fonts/CircularStd-Medium.ttf') format('truetype');
     font-weight: 500;
     font-style: normal;
-} */
+}
 
-/* * {
+body {
     font-family: 'CircularStd', sans-serif;
-} */
+}
 
 .text-primary {
     @apply text-[#1f2e4c]
@@ -36,16 +43,21 @@
 }
 
 h1 {
-    @apply text-primary font-bold tracking-tight text-4xl text-center;
-    
+    @apply text-primary tracking-tight text-center;
+    font-weight: 800;
+    font-size: 2.5rem;
+    line-height: normal;
 }
 
 h2 {
-    @apply text-primary font-bold tracking-tight text-2xl xl:text-start text-center w-11/12
+    @apply text-primary font-bold tracking-tighter text-2xl xl:text-start text-center w-11/12;
+    font-size: 1.6rem;
+    line-height: normal;
+    font-weight: 800;
 }
 
 .shadow {
-    box-shadow: 0px 0px 13px rgba(0, 46, 116, 0.212);
+    box-shadow: 0px 0px 10px rgba(0, 46, 116, 0.25);
 }
 
 .shadow:hover {

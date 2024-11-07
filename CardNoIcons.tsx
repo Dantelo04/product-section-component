@@ -28,7 +28,7 @@ export const CardNoIcons = ({title,description, children,link}:CardProps) => {
                         <div className="w-4 h-4 aspect-square rounded-full bg-secondary inline-flex flex-shrink-0"></div><span className="text">Here goes description</span>
                     </li>}
                 </ul>
-                <div  className={`rounded-full w-8 h-8 absolute bottom-0 right-0 ${hover ? "bg-secondary":"bg-primary"} inline-flex justify-center items-center duration-200 ease`}>
+                <div  className={`rounded-full w-10 h-10 absolute bottom-0 right-0 ${hover ? "bg-secondary":"bg-primary"} inline-flex justify-center items-center duration-200 ease`}>
                     <span className="p-1 text-white font-bold text-xs uppercase">Go</span>
                 </div>
             </div>
