@@ -65,7 +65,7 @@ h2 {
 }
 
 li {
-    @apply inline-flex items-start gap-2 xl:text-sm
+    @apply inline-flex items-start gap-2 xl:text-sm;
 }
 
 .bg-primary {
