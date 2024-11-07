@@ -15,7 +15,7 @@ h1 {
 }
 
 h2 {
-    @apply text-primary font-semibold tracking-tight text-2xl text-start w-11/12
+    @apply text-primary font-semibold tracking-tight text-2xl xl:text-start text-center w-11/12
 }
 
 .shadow {
@@ -27,7 +27,7 @@ h2 {
 }
 
 li {
-    @apply inline-flex items-start gap-2 text-xs
+    @apply inline-flex items-start gap-2 xl:text-xs
 }
 
 .bg-primary {
