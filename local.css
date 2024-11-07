@@ -1,0 +1,43 @@
+.text-primary {
+    @apply text-[#1f2e4c]
+}
+
+.text-secondary {
+    @apply text-[#0074e8]
+}
+
+.text {
+    @apply text-[#003d7a]
+}
+
+h1 {
+    @apply text-primary font-bold tracking-tight text-4xl text-center;
+}
+
+h2 {
+    @apply text-primary font-semibold tracking-tight text-2xl text-start w-11/12
+}
+
+.shadow {
+    box-shadow: 0px 0px 13px rgba(0, 46, 116, 0.212);
+}
+
+.shadow:hover {
+    box-shadow: 0px 0px 20px rgba(0, 46, 116, 0.34);
+}
+
+li {
+    @apply inline-flex items-start gap-2 text-xs
+}
+
+.bg-primary {
+    background-color: #1f2e4c;
+}
+
+.bg-secondary {
+    background-color: #0472e3;
+}
+
+.bg-primary:hover {
+    background-color: #0472e3;
+}
