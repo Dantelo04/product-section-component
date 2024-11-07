@@ -1,3 +1,28 @@
+/* @font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Black.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Book.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'CircularStd';
+    src: url('../fonts/CircularStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+} */
+
+/* * {
+    font-family: 'CircularStd', sans-serif;
+} */
+
 .text-primary {
     @apply text-[#1f2e4c]
 }
@@ -12,6 +37,7 @@
 
 h1 {
     @apply text-primary font-bold tracking-tight text-4xl text-center;
+    
 }
 
 h2 {
