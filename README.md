@@ -1,4 +1,4 @@
-#**Please make sure Tailwind CSS is applying to the folder**
+# **Please make sure Tailwind CSS is applying to the folder**
 
 # Product Visualization Components
 
