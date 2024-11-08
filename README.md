@@ -1,3 +1,5 @@
+#**Please make sure Tailwind CSS is applying to the folder**
+
 # Product Visualization Components
 
 This repository contains beautifully designed and fully responsive product visualization components built with **Next.js**, **Tailwind CSS**, **TypeScript**, and **React Icons**. These components were developed specifically for **OneHQ**.
