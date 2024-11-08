@@ -9,7 +9,7 @@ export const ProductSection = () => {
     return(
         <section className="flex justify-center py-20">
             <div className="flex flex-col justify-center items-center gap-10 xl:w-8/12 px-5">
-                <div className="xl:w-6/12">
+                <div className="xl:w-[630px]">
                     <h1 className="px-5">Drive results across every stage of the Insurance Life Cycle</h1>
                 </div>
                 <div className="flex xl:flex-row flex-col gap-4 w-full justify-center">
